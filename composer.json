@@ -1,0 +1,16 @@
+{
+    "name": "ryangjchandler/stencil",
+    "autoload": {
+        "psr-4": {
+            "Stencil\\": "src/"
+        }
+    },
+    "require-dev": {
+        "pestphp/pest": "^2.6"
+    },
+    "config": {
+        "allow-plugins": {
+            "pestphp/pest-plugin": true
+        }
+    }
+}

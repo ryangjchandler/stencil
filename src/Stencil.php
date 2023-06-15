@@ -18,6 +18,6 @@ class Stencil
             throw TemplateNotFoundException::make($template);
         }
 
-        return (new Template($path, $data))->render();
+        return (new Template($this, $path, $data))->render();
     }
 }
